@@ -45,12 +45,14 @@ nav{
     align-items: center;
     gap: 30px;
     white-space: nowrap;
+
 }
 
 .nav-links-right a {
     text-decoration: none;
     color: black;
     font-size: 14px;
+    white-space: nowrap;
 }
 
 .nav-links-right a:hover {
@@ -394,6 +396,12 @@ footer{
     color: black;
     font-size: 12px;
 
+}
+.nav-links-right a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    white-space: nowrap;
 }
     
     
