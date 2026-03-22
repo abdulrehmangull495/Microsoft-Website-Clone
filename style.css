@@ -33,7 +33,6 @@ nav{
     text-decoration: none;
     color: black;
     font-size: 14px;
-
 }
 .nav-links a:hover {
     text-decoration: underline;
@@ -45,7 +44,6 @@ nav{
     align-items: center;
     gap: 30px;
     white-space: nowrap;
-
 }
 
 .nav-links-right a {
@@ -74,21 +72,13 @@ nav{
     background-position: center;
     background-size: cover;
 }
-.banner-content{
- 
-}
-
-
 .banner-content {
     max-width: 500px;
     margin-top: 200px;
 }
-
-
 .banner-content h1 {
     font-size: 36px;
-    color: white;
-    
+    color: white;  
 }
 
 .banner-content p {
@@ -120,9 +110,6 @@ nav{
     gap: 25px;
     margin: 0 auto;
     flex-wrap: wrap;
-
-    
-
 }
 .card{
     border: 1px solid rgb(221, 220, 220);
@@ -177,17 +164,14 @@ max-width: 200px;
      margin: 0 auto;
      padding-right: 80px;
      width: 90%;
-
 }
 .onenote-card{
     background-color: white;
     padding: 50px;
-    
 }
 .onenote-card h2{
     margin-bottom: 20px;
     font-size: 28px;
-
 }
 .onenote-card p{
     margin-bottom: 20px;
@@ -230,8 +214,6 @@ footer{
 }
 .footer-column ul{
     margin-top: 15px;
-   
-
 }
 
 .footer-column h4{
@@ -251,9 +233,6 @@ footer{
 }
  
 @media (min-width:200px) and (max-width:400px){
-
-
-   
      .cards-section{
     display: flex;
     justify-content: space-between;
@@ -275,17 +254,14 @@ footer{
      padding-left: 10px;
      padding-top: 200px;
      width: 90%;
-
 }
 .onenote-card{
     background-color: white;
     padding: 10px;
-    
 }
 .onenote-card h2{
     margin-bottom: 20px;
     font-size: 20px;
-
 }
 .onenote-card p{
     margin-bottom: 20px;
@@ -306,11 +282,9 @@ footer{
     margin-top: 350px;
 }
 
-
 .banner-content h1 {
     font-size: 26px;
-    color: rgb(0, 0, 0);
-    
+    color: rgb(0, 0, 0); 
 }
 
 .banner-content p {
@@ -329,9 +303,6 @@ footer{
     cursor: pointer;
     font-weight: 700;
 }
-    
-    
-
     .hamburger{
         display: block;
     }
@@ -365,7 +336,6 @@ footer{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-
     }
 .business-heading h1{
     text-align: center;
@@ -382,12 +352,10 @@ footer{
      padding-left: 10px;
      padding-top: 180px;
      width: 90%;
-
 }
 .onenote-card{
     background-color: white;
     padding: 10px;
-    
 }
 .onenote-card h2{
     margin-bottom: 20px;
@@ -405,19 +373,14 @@ footer{
     outline: none;
     color: white;
 }
-
-    
         .footer {
         flex-direction: column;
         padding: 30px;
         margin: 0 auto;
     }
-
     .footer-column {
         width: 100%;
-    }
-   
-    
+    }   
 }
 
 
@@ -433,16 +396,15 @@ footer{
     .card{
         
         width: 300px; 
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  overflow: hidden;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        overflow: hidden;
         margin: 0 auto;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         overflow: hidden;
-
     }
     .card img{
         width: 100%;
@@ -463,17 +425,13 @@ footer{
     text-decoration: none;
     color: black;
     font-size: 12px;
-
 }
 .nav-links-right a {
     text-decoration: none;
     color: black;
     font-size: 12px;
     white-space: nowrap;
-}
-    
-    
-}
+}}
 @media (min-width:1025px) and (max-width:1220px) {
     .cards-section{
         display: flex;
@@ -492,13 +450,9 @@ footer{
         align-items: center;
         flex-direction: column;
         overflow: hidden;
-
     }
     .card img{
         width: 100%;
         height: auto; 
   display: block
-    }
-    
-    
-}
+    }}
