@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -13,7 +12,6 @@ nav{
     align-items: center;
     padding: 20px 40px;
 }
-
 .nav-left{
     display: flex;
     align-items: center;
@@ -226,7 +224,6 @@ footer{
     color: #616161;
     cursor: pointer;
 }
-
 .footer-column li:hover {
     text-decoration: underline;
     color: black;
@@ -241,7 +238,6 @@ footer{
     flex-wrap: wrap;
     margin-right: 250px;
 }
-
 .onenote-section{
     background-image: url(/assets/Highlight-PC-SMB-OneNote_VP2-859x540.webp);
      height: 50vh;
@@ -391,10 +387,8 @@ footer{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-
     }
     .card{
-        
         width: 300px; 
         border: 1px solid #ccc;
         border-radius: 8px;
